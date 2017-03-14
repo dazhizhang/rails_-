@@ -1,0 +1,6 @@
+render :action=>"login",:layout=>"application" (提交方式)
+
+redirect_to :controller=>"user",:action=>"login" (重定向方式)
+
+redirect_to 可以指定controller,而render不可以
+render 可以指定layout,redirect_to不可以
